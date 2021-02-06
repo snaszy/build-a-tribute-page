@@ -1,0 +1,98 @@
+body {
+    font-family: 'Muli', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background: repeating-linear-gradient(
+    0deg, 
+    rgb(189, 168, 130) 0px,
+    rgb(189, 168, 130) 10px,
+    rgb(163, 149, 110) 10px,
+    rgb(172, 158, 112) 12px);
+}
+h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 46px;
+}
+h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 38px;
+    color: rgb(116, 78, 35)
+}
+h3 {
+    font-family: 'Merriweather', serif;
+    font-size: 24px;
+}
+header    {
+    background: repeating-linear-gradient(
+        45deg, 
+        white 0px,
+        lightgray 100%);
+    margin: 20px 25%;
+    padding:20px 0px;
+    text-align: center;
+    transform: rotate(-2deg);
+    border-radius: 5px;
+    box-shadow: -5px 5px 5px 1px rgba(0, 0, 0, 0.25);
+}
+#image {
+    max-width: 100%;
+    display: block;
+    margin: 20px auto;
+}
+#img-caption {
+    font-size: 14px;
+}
+#tribute-info {
+    background: repeating-linear-gradient(
+        0deg, 
+        white 0px,
+        lightgray 100%);
+    max-width: 75%;
+    padding: 20px;
+    text-align: center;
+    margin: 40px 10%;
+    box-shadow: -5px 5px 5px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+#individual {
+    display: flex;
+    margin: auto;
+}
+#gus {
+    flex: 33%;
+    background: repeating-linear-gradient(
+        90deg, 
+        white 0px,
+        rgb(231, 231, 231) 100%);
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    border-radius: 5px;
+    box-shadow: -5px 5px 5px 1px rgba(0, 0, 0, 0.25);
+    transform: rotate(-1deg);
+    margin: 20px;
+}
+#image-gus {
+    max-height: 200px;
+    display: block;
+    margin: 20px auto;
+}
+#greta {
+    flex: 33%;
+    background: repeating-linear-gradient(
+        90deg, 
+        white 0px,
+        rgb(235, 235, 235) 100%);
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    border-radius: 5px;
+    box-shadow: -5px 5px 5px 1px rgba(0, 0, 0, 0.25);
+    transform: rotate(1deg);
+    margin: 20px;
+}
+#image-greta {
+    max-height: 200px;
+    display: block;
+    margin: 20px auto;
+}
